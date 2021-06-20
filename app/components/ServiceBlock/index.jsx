@@ -59,9 +59,9 @@ class ServiceBlock extends React.PureComponent {
       <Container>
         <Row xs="1" sm="1" md="5">
           <Col className="mt-3 mt-sm-0">
-            <IMG src={featureLogoPNG} alt="OmniExplorer.info" />
+            <IMG src={featureLogoPNG} alt="omniexplorer.aryacoin.io" />
             <div className="d-sm-block d-md-inline-block text-whites align-middle">
-              <h5>Raha Token (#3)</h5>
+              <h5>Raha Token (#4)</h5>
               <span>Featured Property</span>
             </div>
           </Col>

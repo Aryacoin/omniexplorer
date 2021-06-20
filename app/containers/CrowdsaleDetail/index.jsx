@@ -157,7 +157,7 @@ export function CrowdsaleDetail(props) {
     getItemKey,
   };
 
-  const shareUrl = `https://www.omniexplorer.info/crowdsale/${
+  const shareUrl = `https://www.omniexplorer.aryacoin.io/crowdsale/${
     crowdsale.propertyid
   }`;
   const shareTitle =

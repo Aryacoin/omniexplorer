@@ -36,17 +36,17 @@ function Promote() {
         <h4 className="panel-title lead">Register Your Property</h4>
       </HeaderContainer>
       <BodyContainer className="panel-body">
-        <p>OmniExplorer.info is the de-facto block explorer for the Omni Layer and our visitors are already familiar with and/or already using Omni Layer, providing a unique stage from which to showcase your property to thousands of Omni Layer users.</p>
+        <p>omniexplorer.aryacoin.io is the de-facto block explorer for the Omni Layer and our visitors are already familiar with and/or already using Omni Layer, providing a unique stage from which to showcase your property to thousands of Omni Layer users.</p>
         <p>Please note:</p><ul>
         <li>Since we do not track visiting browsers we thus cannot provide demographics or unique visitor percentages etc to sponsors.</li>
         <li>Issuers must be able to sign a message from the issuing address to prove property ownership before registration will be permitted.</li>
-        <li>OmniExplorer.info reserves the right to decline any registration/sponsorship containing inappropriate content (for example images depicting child abuse) at our sole discretion.</li>
+        <li>omniexplorer.aryacoin.io reserves the right to decline any registration/sponsorship containing inappropriate content (for example images depicting child abuse) at our sole discretion.</li>
       </ul><p></p>
-        <p>Registering a property allows an issuer to customize certain display attributes of their property on OmniExplorer.info to make the presentation of their property more aesthetic and informative. These attributes have no bearing on the functionality of the property and currently apply only to the OmniExplorer.info block explorer.</p>
+        <p>Registering a property allows an issuer to customize certain display attributes of their property on omniexplorer.aryacoin.io to make the presentation of their property more aesthetic and informative. These attributes have no bearing on the functionality of the property and currently apply only to the omniexplorer.aryacoin.io block explorer.</p>
         <p>When you register a property, you will be asked to submit up to 5,000 characters of additional content describing your token and/or project to be displayed in addition to the property metadata when a visitor is looking at the information page for your property.  This can be an opportunity to deliver information and attract more interest to your property.</p>
-        <p>Please note:</p><ul><li>Registering a property with OmniExplorer.info costs a flat fee of 0.5 BTC.</li><li>There is no registration expiry.</li></ul><p></p>
-        <p>In addition to registering a property, issuers can also sponsor to have their property featured in prominent positions on the OmniExplorer.info website to increase visibility and promote awareness of your project.  OmniExplorer.info allows only one featured token at a time to really highlight participating projects.</p>
-        <p></p><ul><li>Featuring a property with OmniExplorer.info costs a flat fee of 0.2 BTC per month.</li><li>Properties must be registered to be eligible for inclusion in featured properties.</li></ul><p></p>
+        <p>Please note:</p><ul><li>Registering a property with omniexplorer.aryacoin.io costs a flat fee of 0.5 BTC.</li><li>There is no registration expiry.</li></ul><p></p>
+        <p>In addition to registering a property, issuers can also sponsor to have their property featured in prominent positions on the omniexplorer.aryacoin.io website to increase visibility and promote awareness of your project.  omniexplorer.aryacoin.io allows only one featured token at a time to really highlight participating projects.</p>
+        <p></p><ul><li>Featuring a property with omniexplorer.aryacoin.io costs a flat fee of 0.2 BTC per month.</li><li>Properties must be registered to be eligible for inclusion in featured properties.</li></ul><p></p>
         <p>Please <StyledA href="/submitfeedback"> submit feedback</StyledA> with a contact email address to process your registration or for further information.
         </p></BodyContainer>
     </Container>

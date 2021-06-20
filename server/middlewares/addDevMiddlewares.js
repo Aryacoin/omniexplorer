@@ -33,7 +33,7 @@ module.exports = function addDevMiddlewares(app, webpackConfig) {
   app.use(
     '/api',
     proxy({
-      target: 'https://api.omniexplorer.info/',
+      target: 'https://omniapi.aryacoin.io/',
       changeOrigin: true,
       logLevel: 'debug',
       pathRewrite: {

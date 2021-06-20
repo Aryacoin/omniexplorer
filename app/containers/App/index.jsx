@@ -113,7 +113,7 @@ export function App({ loadStatus }) {
           name="description"
           content="The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies"
         />
-        <link rel="canonical" href="https://omniexplorer.info" />
+        <link rel="canonical" href="https://omniexplorer.aryacoin.io" />
         <meta name="referrer" content="always" />
       </Helmet>
       <Header />

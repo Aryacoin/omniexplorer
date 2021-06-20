@@ -88,7 +88,7 @@ export default (flags, tokenName, tokenId) => {
             <StyledCardBody>
               <CardText>
                 Please note that the issuer of this property {tokenDesc}, has
-                informed OmniExplorer.info that this property is deprecated and
+                informed omniexplorer.aryacoin.io that this property is deprecated and
                 should no longer be used.
                 <br />
                 <b>The issuer has advised that the token has been replaced.</b>
