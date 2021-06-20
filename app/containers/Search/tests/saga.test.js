@@ -46,7 +46,7 @@ describe('getSearch Saga', () => {
           id: 0,
           pendingneg: '0',
           pendingpos: '0',
-          symbol: 'BTC',
+          symbol: 'AYA',
           value: '251440000',
         },
       ],

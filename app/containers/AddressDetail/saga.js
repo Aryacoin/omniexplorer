@@ -51,9 +51,9 @@ export function* getAddress({ addr }) {
   if (
     btcBalance &&
     btcBalance[addr] &&
-    !isNil(btcBalance[addr].final_balance)
+    !isNil(Number(btcBalance.balance))
   ) {
-    btcBalanceValue = btcBalance[addr].final_balance;
+    btcBalanceValue = Number(btcBalance.balance) * 100000000;
   } else {
     // if blockchain.info retrieves an error try with blockchair
     const urlBTCBalanceAlternative = FN_API_URL_BLOCKCHAIR_BTC_BALANCE({
@@ -62,7 +62,7 @@ export function* getAddress({ addr }) {
     try {
       btcBalance = yield call(request, urlBTCBalanceAlternative);
       // use btc balance from blockchair.com response
-      btcBalanceValue = btcBalance.data[addr].address.balance;
+      btcBalanceValue = Number(btcBalance.balance) * 100000000;
       // eslint-disable-next-line no-empty
     } catch {}
   }

@@ -10,12 +10,12 @@
  */
 import generateTemplate from 'utils/generateTemplate';
 
-export const API_URL_BASE = 'https://api.omniexplorer.info/v1';
-export const API_TESTNET_URL_BASE = 'https://testnetapi.omniexplorer.info/v1';
+export const API_URL_BASE = 'https://omniapi.aryacoin.io/v1';
+export const API_TESTNET_URL_BASE = 'https://testomniapi.aryacoin.io/v1';
 export const API_URL_BLOCKCHAIN_BTC_BALANCE =
-  'https://blockchain.info/balance?cors=true&active=';
+  'https://explorer2.aryacoin.io/api/v1/address/';
 export const FN_API_URL_BLOCKCHAIR_BTC_BALANCE = data =>
-  generateTemplate`https://api.blockchair.com/bitcoin/dashboards/address/${'address'}?state=latest&limit=0,0`(
+  generateTemplate`https://ayabook.guarda.co/api/v1/address/${'address'}`(
     data,
   );
 export const FN_API_URL_BLOCKCHAIN_ADDR = data =>

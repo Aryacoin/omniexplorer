@@ -43,10 +43,10 @@ export function* getClassABTxsByBlockchainInfo({ addr }) {
   const transactions = yield call(request, requestURL);
   yield put(
     ClassABTxsLoaded(
-      transactions.txs,
-      transactions.n_tx / maxPagesByMedia,
+      transactions.txids,
+      transactions.txs / maxPagesByMedia,
       addr,
-      transactions.n_tx,
+      transactions.txs,
     ),
   );
 }

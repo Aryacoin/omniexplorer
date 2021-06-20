@@ -36,8 +36,8 @@ export function* getSearch({ query }) {
     }
 
     // if there is a valid response use btc balance from blockchain.info response
-    if (btcBalance && btcBalance[address] && !isNil(btcBalance[address].final_balance)) {
-      btcBalanceValue = btcBalance[address].final_balance;
+    if (btcBalance && btcBalance[0] && !isNil(Number(btcBalance.balance))) {
+      btcBalanceValue = Number(btcBalance.balance) * 100000000;
     } else {
       // if blockchain.info retrieves an error try with blockchair
       const urlBTCBalanceAlternative = FN_API_URL_BLOCKCHAIR_BTC_BALANCE({
@@ -47,7 +47,7 @@ export function* getSearch({ query }) {
       try {
         btcBalance = yield call(request, urlBTCBalanceAlternative);
         // use btc balance from blockchair.com response
-        btcBalanceValue = btcBalance.data[address].address.balance;
+        btcBalanceValue = Number(btcBalance.balance) * 100000000;
       } catch {
       }
     }
