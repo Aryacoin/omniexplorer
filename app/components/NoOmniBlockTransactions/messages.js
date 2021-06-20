@@ -22,7 +22,7 @@ export default defineMessages({
     defaultMessage:
       'If the transaction you are searching for is a Bitcoin only transaction you should use a bitcoin block explorer like {link}',
     values: {
-      link: <StyledA href="https://www.blockchair.com">blockchair.com</StyledA>,
+      link: <StyledA href="https://explorer2.aryacoin.io/">Aryacoin Explorer</StyledA>,
     },
   },
 });

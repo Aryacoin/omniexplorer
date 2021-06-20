@@ -94,7 +94,7 @@ module.exports = require('./webpack.base.babel')({
       name: 'OmniExplorer',
       short_name: 'OmniExplorer',
       description:
-        'The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies',
+        'The block explorer for Omni Layer Tokens / Cryptocurrencies on Aryacoin Blockchain',
       theme_color: '#b1624d',
       inject: true,
       ios: true,

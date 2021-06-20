@@ -50,7 +50,7 @@ class ServiceBlock extends React.PureComponent {
 
     const omniPriceValue = props => (
       <span>
-        {Math.round((props.omni_btc + 0.0000001) * 1000000) / 1000000} BTC / $
+        {Math.round((props.omni_btc + 0.0000001) * 1000000) / 1000000} AYA / $
         {(Math.round((props.omni_usd + 0.00001) * 100) / 100).toFixed(2)}
       </span>
     );
@@ -71,7 +71,7 @@ class ServiceBlock extends React.PureComponent {
             <small className="d-block">{`${this.props.status.block_time} UTC`}</small>
           </Col>
           <Col className="mt-3 mt-sm-0">
-            <BlockTitle>LATEST OMNI EXCHANGE RATE</BlockTitle>
+            <BlockTitle>LATEST RAHA EXCHANGE RATE</BlockTitle>
             <span>{omniPriceValue(this.props.status)}</span>
           </Col>
           <Col className="mt-3 mt-sm-0">

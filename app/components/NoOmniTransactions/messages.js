@@ -26,7 +26,7 @@ export default defineMessages({
       'transaction you should use a bitcoin block explorer like\n' +
       '{link}',
     values: {
-      link: <StyledA href="https://www.blockchair.com">blockchair.com</StyledA>,
+      link: <StyledA href="https://explorer2.aryacoin.io/">Aryacoin Explorer</StyledA>,
     },
   },
 });

@@ -26,9 +26,9 @@ const ExplorerName = styled.span.attrs({
 const explorers = {
   [EXTERNAL_EXPLORER_BLOCKCHAIR]: {
     name: 'blockchair',
-    pathbase: 'https://blockchair.com/bitcoin/transaction/',
-    title: 'View on Blockchair',
-    linkText: 'Blockchair',
+    pathbase: 'https://ayabook.guarda.co/tx/',
+    title: 'View on Blockbook',
+    linkText: 'Blockbook',
   },
 };
 

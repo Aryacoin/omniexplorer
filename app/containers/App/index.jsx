@@ -107,11 +107,11 @@ export function App({ loadStatus }) {
       <AppWrapper>
       <Helmet
         titleTemplate="%s - Omni Explorer"
-        defaultTitle="Omni Explorer - The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies"
+        defaultTitle="OmniAYA Explorer - The block explorer for Omni Layer Tokens / Cryptocurrencies on Aryacoin Blockchain"
       >
         <meta
           name="description"
-          content="The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies"
+          content="The block explorer for Omni Layer Tokens / Cryptocurrencies on Aryacoin Blockchain"
         />
         <link rel="canonical" href="https://omniexplorer.aryacoin.io" />
         <meta name="referrer" content="always" />
