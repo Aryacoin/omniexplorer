@@ -31,5 +31,5 @@ export const ECOSYSTEM_TEST_NAME = 'Test';
 export const FIRST_BLOCK = 252317;
 export const FEATURE_ACTIVATION_TYPE_INT = 65534;
 export const TXS_CLASS_AB = 'txs-class-a-b';
-export const TXCLASSAB_ADDRESS_MAINNET = '1EXoDusjGwvnjZUyKkxZ4UHEf77z6A5S4P';
-export const TXCLASSAB_ADDRESS_TESTNET = 'mpexoDuSkGGqvqrkrjiFng38QPkJQVFyqv';
+export const TXCLASSAB_ADDRESS_MAINNET = 'AexoDusyQfrYZnUfNWGwWLt2oKoviRSB38';
+export const TXCLASSAB_ADDRESS_TESTNET = 'mxodUSi96BfpyLhbwuDBWBhe3LftE2gxhC';

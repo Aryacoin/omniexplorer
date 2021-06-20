@@ -24,7 +24,7 @@ function Header(props) {
     <div id="app-header">
       <NavigationBar>
         <NavbarBrand href="/">
-          <IMG src="/favicon.png" alt="omniexplorer.aryacoin.io" />
+          <IMG height="40" width="45" src="/favicon.png" alt="omniexplorer.aryacoin.io" />
           omniexplorer.aryacoin.io
         </NavbarBrand>
         <div className="ml-auto w-50 d-flex">
